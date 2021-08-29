@@ -27,21 +27,21 @@ const Navbar = () => {
 
 				</div>
 				<br />
-				
+
 				<Switch>
 					<Route path='/' exact>
 						<Current />
 					</Route>
-					<Route path='/current' exact>
+					<Route path='/current'>
 						<Current />
 					</Route>
-					<Route path='/history/select' exact>
+					<Route path='/history/select'>
 						<HisSelect />
 					</Route>
-					<Route path='/history/result' exact>
+					<Route path='/history/result'>
 						<HisResult />
 					</Route>
-					<Route path='/about' exact>
+					<Route path='/about'>
 						<About />
 					</Route>
 				</Switch>
